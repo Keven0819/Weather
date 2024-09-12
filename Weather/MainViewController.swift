@@ -24,7 +24,7 @@ class MainViewController: UIViewController {
     var weatherData: WeatherData?
     
     var selectedTimeIndex: Int = 0
-    let timeOptions = ["今日白天(12:00~18:00)", "今晚明晨(18:00~06:00)", "明日白天(06:00~18:00)"]
+    let timeOptions = ["今晚明晨(18:00~06:00)", "明日白天(06:00~18:00)", "明日晚上(18:00~06:00)"]
     
     var selectedAreaIndex: Int = 0
     let areaOptions = ["宜蘭縣", "花蓮縣", "臺東縣", "澎湖縣", "金門縣", "連江縣", "臺北市", "新北市",
