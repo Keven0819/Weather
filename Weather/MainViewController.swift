@@ -91,7 +91,7 @@ class MainViewController: UIViewController {
     
     func callAPI() {
         guard selectedAreaIndex < areaOptions.count else { return }
-        var city = areaOptions[selectedAreaIndex]
+        let city = areaOptions[selectedAreaIndex]
         
         let requestURL = LegitimateURL(requestURL:
         "https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-B2E2B8D3-55CE-4C04-88EA-50ACB5AE4747&locationName=" + city)
